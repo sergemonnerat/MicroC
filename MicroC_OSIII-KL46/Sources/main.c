@@ -103,7 +103,7 @@ int  main (void)
     TRACE_INIT();		// Initialize the µC/Trace recorder
     TRACE_START();	// Start recording
 #endif
-    
+   
 	// Initialize "uC/OS-III, The Real-Time Kernel"
 	OSInit(&aErr);                                               
 	
@@ -131,7 +131,7 @@ int  main (void)
 
 
 //---------------------------------------------------------------------------------------------------
-// Tâche de démarrage, init du hardware et création des tâches de l'applicaiton
+// Tâches de démarrages, init du hardware et création des tâches de l'applicaiton
 //---------------------------------------------------------------------------------------------------
 static void AppTaskStart(void *p_arg)
 {

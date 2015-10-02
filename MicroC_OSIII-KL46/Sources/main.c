@@ -16,6 +16,7 @@
 *
 *                                            EXAMPLE CODE
 *
+*
 *                                        Freescale Kinetis KL40
 *                                               on the
 *                                        Freescale FRDM-KL46Z

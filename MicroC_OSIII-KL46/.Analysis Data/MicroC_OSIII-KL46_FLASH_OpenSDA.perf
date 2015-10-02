@@ -1,0 +1,196 @@
+**1
+U:/Dev/Enseignement RTOS/MicroC_OSIII-KL46/.Analysis Data/MicroC_OSIII-KL46_FLASH_OpenSDA_0.elf
+
+**Lines
+
+"Function": "Function Name"(width 200, sort, string); "Num Calls"(width 80, sort, int); "Inclusive"(width 60, sort, float); "Min Inclusive"(width 60, sort, float); "Max Inclusive"(width 70, sort, float); "Avg Inclusive"(width 70, sort, float); "Percent Inclusive"(width 60, sort, float); "Exclusive"(width 60, sort, float); "Min Exclusive"(width 60, sort, float); "Max Exclusive"(width 70, sort, float); "Avg Exclusive"(width 70, sort, float); "Percent Exclusive"(width 60, sort, float); "Percent Total Calls"(width 70, sort, float); "Code Size"(width 70, sort, int)
+"Call Pair": "Caller"(width 200, sort, string); "Callee"(width 200, sort, string); "Num Calls"(width 80, sort, int); "Inclusive"(width 60, sort, float); "Min Inclusive"(width 60, sort, float); "Max Inclusive"(width 70, sort, float); "Avg Inclusive"(width 70, sort, float); "Percent Callee"(width 60, sort, float); "Percent Caller"(width 60, sort, float); "Call Site"(width 60, sort, int)
+**Data
+
+*0
+"Function": "OSTimeDlyHMSM"(link 14353); "1"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "1.82"; "388"
+"Function": "OS_TickListInsert"(link 18270); "1"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "1.82"; "298"
+"Function": "OS_TickListInsertDly"(link 18380); "1"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "1.82"; "276"
+"Function": "OSTaskCreate"(link 22313); "2"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "3.64"; "440"
+"Function": "OS_TaskDbgListAdd"(link 24140); "1"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "1.82"; "72"
+"Function": "OS_PrioGetHighest"(link 38648); "2"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "3.64"; "84"
+"Function": "OS_PrioInsert"(link 38712); "1"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "1.82"; "92"
+"Function": "OS_PrioRemove"(link 38793); "1"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "1.82"; "96"
+"Function": "OS_MsgQInit"(link 45267); "1"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "1.82"; "52"
+"Function": "OSTaskCreateHook"(link 60256); "1"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "1.82"; "36"
+"Function": "OSTaskStkInit"(link 60376); "1"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "1.82"; "220"
+"Function": "OSTaskSwHook"(link 60512); "1"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "1.82"; "184"
+"Function": "(AsmSection)_0x800"(link 60912); "2"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "3.64"; "156"
+"Function": "OSSched"(link 64491); "2"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "3.64"; "168"
+"Function": "OS_RdyListInsertTail"(link 66534); "1"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "1.82"; "124"
+"Function": "OS_RdyListRemove"(link 66693); "1"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "1.82"; "172"
+"Function": "CPU_IntDisMeasMaxCurReset"(link 80387); "1"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "1.82"; "56"
+"Function": "CPU_IntDisMeasMaxCurGet"(link 80448); "1"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "1.82"; "60"
+"Function": "CPU_IntDisMeasStart"(link 80600); "2"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "3.64"; "64"
+"Function": "CPU_IntDisMeasStop"(link 80622); "2"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "3.64"; "108"
+"Function": "CPU_CntLeadZeros"(link 80664); "2"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "3.64"; "30"
+"Function": "CPU_CntLeadZeros32"(link 80875); "2"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "3.64"; "128"
+"Function": "CPU_IntDisMeasMaxCalc"(link 81591); "1"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "1.82"; "52"
+"Function": "CPU_TS_TmrRd"(link 82115); "5"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "9.09"; "20"
+"Function": "(AsmSection)_0x89c"(link 82246); "12"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "21.82"; "30"
+"Function": "BSP_LCD_Write"(link 83476); "1"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "1.82"; "428"
+"Function": "BSP_LED_Toggle"(link 86654); "1"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "1.82"; "104"
+"Function": "App_TaskStart"(link 90826); "1"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "1.82"; "114"
+"Function": "App_TaskCreate"(link 90899); "1"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "1.82"; "152"
+"Function": "App_Task_LCD"(link 90940); "1"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "1.82"; "100"
+"Function": "__udivsi3"(link 2147483650); "2"; "0"; "0"; "0"; "0"; "0.00"; "0"; "0"; "0"; "0"; "0.00"; "3.64"; "136"
+
+*14353
+"Call Pair": "App_TaskStart"; "OSTimeDlyHMSM"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x5bbe"
+"Call Pair": "OSTimeDlyHMSM"; "__udivsi3"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0xf7a"
+"Call Pair": "OSTimeDlyHMSM"; "__udivsi3"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0xf90"
+"Call Pair": "OSTimeDlyHMSM"; "(AsmSection)_0x89c"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0xfa0"
+"Call Pair": "OSTimeDlyHMSM"; "CPU_IntDisMeasStart"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0xfa8"
+"Call Pair": "OSTimeDlyHMSM"; "OS_TickListInsertDly"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0xfba"
+"Call Pair": "OSTimeDlyHMSM"; "OS_RdyListRemove"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0xfda"
+"Call Pair": "OSTimeDlyHMSM"; "CPU_IntDisMeasStop"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0xfde"
+"Call Pair": "OSTimeDlyHMSM"; "(AsmSection)_0x89c"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0xfe6"
+"Call Pair": "OSTimeDlyHMSM"; "OSSched"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0xfea"
+
+*18270
+"Call Pair": "OS_TickListInsertDly"; "OS_TickListInsert"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x140c"
+
+*18380
+"Call Pair": "OSTimeDlyHMSM"; "OS_TickListInsertDly"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0xfba"
+"Call Pair": "OS_TickListInsertDly"; "OS_TickListInsert"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x140c"
+
+*22313
+"Call Pair": "BSP_LCD_Write"; "OSTaskCreate"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x17a4"
+"Call Pair": "OSTaskCreate"; "OSTaskStkInit"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x17c4"
+"Call Pair": "OSTaskCreate"; "OS_MsgQInit"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x1854"
+"Call Pair": "OSTaskCreate"; "OSTaskCreateHook"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x185c"
+"Call Pair": "OSTaskCreate"; "(AsmSection)_0x89c"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x1860"
+"Call Pair": "OSTaskCreate"; "CPU_IntDisMeasStart"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x1868"
+"Call Pair": "OSTaskCreate"; "OS_PrioInsert"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x1874"
+"Call Pair": "OSTaskCreate"; "OS_RdyListInsertTail"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x187c"
+"Call Pair": "OSTaskCreate"; "OS_TaskDbgListAdd"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x1884"
+"Call Pair": "OSTaskCreate"; "CPU_IntDisMeasStop"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x18aa"
+"Call Pair": "OSTaskCreate"; "(AsmSection)_0x89c"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x18b2"
+"Call Pair": "OSTaskCreate"; "OSSched"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x18b6"
+
+*24140
+"Call Pair": "OSTaskCreate"; "OS_TaskDbgListAdd"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x1884"
+
+*38648
+"Call Pair": "OSSched"; "OS_PrioGetHighest"; "2"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x3c4e"
+"Call Pair": "OS_PrioGetHighest"; "CPU_CntLeadZeros"; "2"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x2c44"
+
+*38712
+"Call Pair": "OSTaskCreate"; "OS_PrioInsert"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x1874"
+
+*38793
+"Call Pair": "OS_RdyListRemove"; "OS_PrioRemove"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x4708"
+
+*45267
+"Call Pair": "OSTaskCreate"; "OS_MsgQInit"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x1854"
+
+*60256
+"Call Pair": "OSTaskCreate"; "OSTaskCreateHook"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x185c"
+
+*60376
+"Call Pair": "OSTaskCreate"; "OSTaskStkInit"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x17c4"
+
+*60512
+"Call Pair": "(AsmSection)_0x800"; "OSTaskSwHook"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x37ec"
+"Call Pair": "OSTaskSwHook"; "CPU_TS_TmrRd"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x3800"
+"Call Pair": "OSTaskSwHook"; "CPU_IntDisMeasMaxCurReset"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x384c"
+
+*60912
+"Call Pair": "OSSched"; "(AsmSection)_0x800"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x848"
+"Call Pair": "OSSched"; "(AsmSection)_0x800"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x3c9e"
+"Call Pair": "(AsmSection)_0x800"; "OSTaskSwHook"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x37ec"
+
+*64491
+"Call Pair": "OSTimeDlyHMSM"; "OSSched"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0xfea"
+"Call Pair": "OSTaskCreate"; "OSSched"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x18b6"
+"Call Pair": "OSSched"; "(AsmSection)_0x800"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x848"
+"Call Pair": "OSSched"; "(AsmSection)_0x89c"; "2"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x3c46"
+"Call Pair": "OSSched"; "OS_PrioGetHighest"; "2"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x3c4e"
+"Call Pair": "OSSched"; "(AsmSection)_0x89c"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x3c80"
+"Call Pair": "OSSched"; "(AsmSection)_0x800"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x3c9e"
+"Call Pair": "OSSched"; "(AsmSection)_0x89c"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x3ca6"
+"Call Pair": "OSSched"; "App_Task_LCD"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x5c8c"
+
+*66534
+"Call Pair": "OSTaskCreate"; "OS_RdyListInsertTail"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x187c"
+
+*66693
+"Call Pair": "OSTimeDlyHMSM"; "OS_RdyListRemove"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0xfda"
+"Call Pair": "OS_RdyListRemove"; "OS_PrioRemove"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x4708"
+
+*80387
+"Call Pair": "OSTaskSwHook"; "CPU_IntDisMeasMaxCurReset"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x384c"
+"Call Pair": "CPU_IntDisMeasMaxCurReset"; "CPU_IntDisMeasMaxCurGet"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x4fa6"
+"Call Pair": "CPU_IntDisMeasMaxCurReset"; "(AsmSection)_0x89c"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x4fae"
+"Call Pair": "CPU_IntDisMeasMaxCurReset"; "(AsmSection)_0x89c"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x4fc0"
+
+*80448
+"Call Pair": "CPU_IntDisMeasMaxCurReset"; "CPU_IntDisMeasMaxCurGet"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x4fa6"
+"Call Pair": "CPU_IntDisMeasMaxCurGet"; "(AsmSection)_0x89c"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x4fde"
+"Call Pair": "CPU_IntDisMeasMaxCurGet"; "(AsmSection)_0x89c"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x4ff0"
+"Call Pair": "CPU_IntDisMeasMaxCurGet"; "CPU_IntDisMeasMaxCalc"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x4ff8"
+
+*80600
+"Call Pair": "OSTimeDlyHMSM"; "CPU_IntDisMeasStart"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0xfa8"
+"Call Pair": "OSTaskCreate"; "CPU_IntDisMeasStart"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x1868"
+"Call Pair": "CPU_IntDisMeasStart"; "CPU_TS_TmrRd"; "2"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x5064"
+
+*80622
+"Call Pair": "OSTimeDlyHMSM"; "CPU_IntDisMeasStop"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0xfde"
+"Call Pair": "OSTaskCreate"; "CPU_IntDisMeasStop"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x18aa"
+"Call Pair": "CPU_IntDisMeasStop"; "CPU_TS_TmrRd"; "2"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x50a6"
+
+*80664
+"Call Pair": "OS_PrioGetHighest"; "CPU_CntLeadZeros"; "2"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x2c44"
+"Call Pair": "CPU_CntLeadZeros"; "CPU_CntLeadZeros32"; "2"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x5104"
+
+*80875
+"Call Pair": "CPU_CntLeadZeros"; "CPU_CntLeadZeros32"; "2"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x5104"
+
+*81591
+"Call Pair": "CPU_IntDisMeasMaxCurGet"; "CPU_IntDisMeasMaxCalc"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x4ff8"
+
+*82115
+"Call Pair": "OSTaskSwHook"; "CPU_TS_TmrRd"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x3800"
+"Call Pair": "CPU_IntDisMeasStart"; "CPU_TS_TmrRd"; "2"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x5064"
+"Call Pair": "CPU_IntDisMeasStop"; "CPU_TS_TmrRd"; "2"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x50a6"
+
+*82246
+"Call Pair": "OSTimeDlyHMSM"; "(AsmSection)_0x89c"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0xfa0"
+"Call Pair": "OSTimeDlyHMSM"; "(AsmSection)_0x89c"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0xfe6"
+"Call Pair": "OSTaskCreate"; "(AsmSection)_0x89c"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x1860"
+"Call Pair": "OSTaskCreate"; "(AsmSection)_0x89c"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x18b2"
+"Call Pair": "OSSched"; "(AsmSection)_0x89c"; "2"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x3c46"
+"Call Pair": "OSSched"; "(AsmSection)_0x89c"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x3c80"
+"Call Pair": "OSSched"; "(AsmSection)_0x89c"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x3ca6"
+"Call Pair": "CPU_IntDisMeasMaxCurReset"; "(AsmSection)_0x89c"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x4fae"
+"Call Pair": "CPU_IntDisMeasMaxCurReset"; "(AsmSection)_0x89c"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x4fc0"
+"Call Pair": "CPU_IntDisMeasMaxCurGet"; "(AsmSection)_0x89c"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x4fde"
+"Call Pair": "CPU_IntDisMeasMaxCurGet"; "(AsmSection)_0x89c"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x4ff0"
+
+*83476
+"Call Pair": "App_Task_LCD"; "BSP_LCD_Write"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x5cc0"
+"Call Pair": "BSP_LCD_Write"; "OSTaskCreate"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x17a4"
+
+*86654
+"Call Pair": "App_TaskStart"; "BSP_LED_Toggle"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x5ba8"
+
+*90826
+"Call Pair": "App_TaskStart"; "BSP_LED_Toggle"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x5ba8"
+"Call Pair": "App_TaskStart"; "OSTimeDlyHMSM"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x5bbe"
+
+*90899
+
+*90940
+"Call Pair": "OSSched"; "App_Task_LCD"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x5c8c"
+"Call Pair": "App_Task_LCD"; "BSP_LCD_Write"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0x5cc0"
+
+*2147483650
+"Call Pair": "OSTimeDlyHMSM"; "__udivsi3"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0xf7a"
+"Call Pair": "OSTimeDlyHMSM"; "__udivsi3"; "1"; "0"; "0"; "0"; "0"; "0.00"; "0.00"; "0xf90"
+

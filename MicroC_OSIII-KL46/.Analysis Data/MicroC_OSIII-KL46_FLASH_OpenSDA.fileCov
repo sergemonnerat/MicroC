@@ -1,0 +1,24 @@
+**1
+U:/Dev/Enseignement RTOS/MicroC_OSIII-KL46/.Analysis Data/MicroC_OSIII-KL46_FLASH_OpenSDA_0.elf
+
+**Lines
+
+"File": "Name"(width 200, sort string); "Number of Lines"(width 80, sort int); "Lines Executed"(width 60, sort int); "Coverage %"(width 70, sort float)
+**Data
+
+*0
+"File": "app.c"; "542"; "85"; "15.68"
+"File": "bsp.c"; "1458"; "22"; "1.51"
+"File": "bsp_lcd.c"; "814"; "47"; "5.77"
+"File": "cpu_a.s"; "228"; "44"; "19.30"
+"File": "cpu_bsp.c"; "629"; "11"; "1.75"
+"File": "cpu_core.c"; "3030"; "123"; "4.06"
+"File": "os_core.c"; "3034"; "92"; "3.03"
+"File": "os_cpu_a.s"; "256"; "105"; "41.02"
+"File": "os_cpu_c.c"; "625"; "78"; "12.48"
+"File": "os_msg.c"; "539"; "9"; "1.67"
+"File": "os_prio.c"; "244"; "39"; "15.98"
+"File": "os_task.c"; "2960"; "154"; "5.20"
+"File": "os_tick.c"; "788"; "108"; "13.71"
+"File": "os_time.c"; "787"; "85"; "10.80"
+
